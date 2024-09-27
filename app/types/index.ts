@@ -14,3 +14,10 @@ export type EducationItem = {
   year: string;
   location: string;
 };
+
+export type CertificationItem = {
+  title: string;
+  issuer: string;
+  link: string;
+  year: string;
+};

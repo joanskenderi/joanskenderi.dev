@@ -1,4 +1,4 @@
-import { EducationItem, ExperienceItem } from '@/app/types';
+import { CertificationItem, EducationItem, ExperienceItem } from '@/app/types';
 
 export const EXPERIENCES = [
   {
@@ -66,3 +66,24 @@ export const EDUCATION = [
     location: 'Tirana, Albania',
   },
 ] as EducationItem[];
+
+export const CERTIFICATIONS = [
+  {
+    title: 'Professional Scrum Developer',
+    issuer: 'Scrum.org',
+    link: 'https://www.scrum.org/assessments/professional-scrum-developer-certification',
+    year: 'Dec 2023',
+  },
+  {
+    title: 'Meta React Native Specialization',
+    issuer: 'Coursera',
+    link: 'https://www.coursera.org/specializations/meta-react-native',
+    year: 'Jul 2023',
+  },
+  {
+    title: 'Meta Front-End Developer',
+    issuer: 'Coursera',
+    link: 'https://www.coursera.org/professional-certificates/meta-front-end-developer',
+    year: 'Feb 2023',
+  },
+] as CertificationItem[];
