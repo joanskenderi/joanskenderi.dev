@@ -1,5 +1,6 @@
 import Header from '@/app/components/Header';
 import Hero from '@/app/components/Hero';
+import Experience from '@/app/components/Experience';
 
 export default function Home() {
   return (
@@ -11,6 +12,10 @@ export default function Home() {
       <div className="container mx-auto px-8">
         <Header />
         <Hero />
+
+        <main>
+          <Experience />
+        </main>
       </div>
     </div>
   );
