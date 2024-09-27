@@ -1,6 +1,7 @@
 import Header from '@/app/components/Header';
 import Hero from '@/app/components/Hero';
 import Experience from '@/app/components/Experience';
+import Education from '@/app/components/Education';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
 
         <main>
           <Experience />
+          <Education />
         </main>
       </div>
     </div>

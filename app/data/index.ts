@@ -1,4 +1,4 @@
-import { ExperienceItem } from '@/app/types';
+import { EducationItem, ExperienceItem } from '@/app/types';
 
 export const EXPERIENCES = [
   {
@@ -49,3 +49,20 @@ export const EXPERIENCES = [
     ],
   },
 ] as ExperienceItem[];
+
+export const EDUCATION = [
+  {
+    title: 'Bachelor in Applied Informatics',
+    institution: 'LOGOS University College',
+    link: 'http://www.kulogos.edu.al/en/bachelor_infoeko.html',
+    year: '2021 - 2024',
+    location: 'Tirana, Albania',
+  },
+  {
+    title: 'Java from Scratch',
+    institution: 'Software Development Academy',
+    link: 'https://sdacademy.al/kurset/java/',
+    year: '2021 - 2022',
+    location: 'Tirana, Albania',
+  },
+] as EducationItem[];
