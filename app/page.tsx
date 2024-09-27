@@ -3,6 +3,7 @@ import Hero from '@/app/components/Hero';
 import Experience from '@/app/components/Experience';
 import Education from '@/app/components/Education';
 import Certifications from '@/app/components/Certifications';
+import Contact from '@/app/components/Contact';
 
 export default function Home() {
   return (
@@ -13,13 +14,15 @@ export default function Home() {
 
       <div className="container mx-auto px-8">
         <Header />
-        <Hero />
 
         <main>
+          <Hero />
           <Experience />
           <Education />
           <Certifications />
         </main>
+
+        <Contact />
       </div>
     </div>
   );
